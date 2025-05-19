@@ -99,7 +99,6 @@ module.exports = {
             }
 
             photo.name = req.body.name ? req.body.name : photo.name;
-            photo.description = req.body.description ? req.body.description : photo.description;
 			photo.path = req.body.path ? req.body.path : photo.path;
 			photo.postedBy = req.body.postedBy ? req.body.postedBy : photo.postedBy;
 			photo.views = req.body.views ? req.body.views : photo.views;
